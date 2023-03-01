@@ -7,7 +7,7 @@
 }
 
 body {
-  background: rgb(0, 0, 0);
+  background: rgb(22, 1, 1);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -28,11 +28,11 @@ body {
 
 .container .left_side {
   position: relative;
-  background: #02193a;
+  background: #001603;
   padding: 40px;
 }
 
-.profileText {
+/* .profileText {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -41,12 +41,12 @@ body {
   align-items: center;
   padding-bottom: 20px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
+} */
 
 .profileText .imgb {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 290px;
+  height: 300px;
   border-radius: 50%;
   overflow: hidden;
 }
@@ -56,10 +56,10 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  height: 120%;
+  height: 140%;
   object-fit: cover;
 }
-
+/* 
 .profileText h2 {
   color: #fff;
   font-size: 1.2em;
@@ -74,7 +74,7 @@ body {
 .profileText h2 span {
   font-size: 0.8em;
   font-weight: 300;
-}
+} */
 .contact_info {
   padding-top: 40px;
 }
@@ -87,7 +87,7 @@ body {
   margin-bottom: 20px;
 }
 .contact_info .text {
-  font-size: 13px;
+  font-size: 18px;
 }
 .contact_info ul {
   position: relative;
@@ -104,7 +104,7 @@ body {
   margin-left: 10cap;
   width: 20px;
   font-size: 18px;
-  color: rgb(3, 205, 255);
+  color: rgb(24, 255, 3);
 }
 
 .contact_info ul li span {
@@ -117,7 +117,7 @@ body {
 }
 
 .contact_info.education h5 {
-  color: rgb(3, 205, 255);
+  color: rgb(53, 255, 3);
   font-weight: 500;
 }
 
@@ -145,15 +145,64 @@ body {
   top: 0;
   left: 0;
   height: 100%;
-  background: #03a9f4;
+  background: #1eff00;
 }
-
+.title3 {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  margin-top: 70px;
+  font-size: 1.3em;
+}
+.site ul {
+  display: table-row;
+}
+.site ul li {
+  list-style: none;
+  color: #ffffff;
+  font-weight: 500;
+  margin: 10px 0;
+}
+.site ul li .fa {
+  color: #1eff00;
+  font-size: 18px;
+  width: 20px;
+}
+.site .social {
+  font-size: 0.9em;
+  margin-left: auto;
+}
 .container .right_side {
   position: relative;
   background: #ffffff;
   padding: 40px;
 }
+.profile_txt {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  color: #002506;
+  align-items: start;
+  padding-bottom: 20px;
+  /* border-bottom: 1px solid rgba(255, 255, 255, 0.2); */
+}
+.profile_txt h2 {
+  color: #073f00;
+  font-size: 2.7em;
+  margin-top: 20px;
+  margin-inline: 1px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4em;
+}
 
+.profile_txt h2 span {
+  font-size: 0.8em;
+  font-weight: 300;
+}
 .about {
   margin-bottom: 50px;
 }
@@ -163,10 +212,12 @@ body {
 }
 
 .title2 {
-  color: #02193a;
+  color: #003006;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  text-align: unset;
 }
 
 p {
@@ -191,7 +242,7 @@ p {
 
 .about .box .text h4 {
   text-transform: uppercase;
-  color: #02193a;
+  color: #003006;
   font-size: 16px;
 }
 .skills .box {
@@ -213,14 +264,14 @@ p {
   width: 70%;
   border-left-width: 20px;
   height: 10px;
-  background: rgb(94, 89, 89);
+  background: rgb(158, 149, 149);
 }
 .skills .box .percent div {
   position: absolute;
   top: 0%;
   left: 0;
   height: 10px;
-  background: #03a9f4;
+  background: #003006;
 }
 .interest ul {
   display: grid;
@@ -228,17 +279,17 @@ p {
 }
 .interest ul li {
   list-style: none;
-  color: #333;
+  color: #282e28;
   font-weight: 500;
   margin: 10px 0;
 }
 .interest ul li .fa {
-  color: #03a9f4;
+  color: #003006;
   font-size: 18px;
   width: 20px;
 }
 
-@media (max-width: 1000px) {
+/* @media (max-width: 1000px) {
   .container {
     margin: 10px;
     grid-template-columns: repeat(1, 1fr);
@@ -259,4 +310,4 @@ p {
   }
   .skills .box {
   }
-}
+} */
